@@ -4,9 +4,9 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/shashank/basicOCR-master/imageClassify/ImageClassify.cpp" "/home/shashank/basicOCR-master/build/CMakeFiles/handGesture.dir/ImageClassify.o"
-  "/home/shashank/basicOCR-master/imageClassify/main.cpp" "/home/shashank/basicOCR-master/build/CMakeFiles/handGesture.dir/main.o"
-  "/home/shashank/basicOCR-master/imageClassify/preprocessing.cpp" "/home/shashank/basicOCR-master/build/CMakeFiles/handGesture.dir/preprocessing.o"
+  "/home/shashank/gestureRecognition/imageClassify/ImageClassify.cpp" "/home/shashank/gestureRecognition/build/CMakeFiles/handGesture.dir/ImageClassify.o"
+  "/home/shashank/gestureRecognition/imageClassify/main.cpp" "/home/shashank/gestureRecognition/build/CMakeFiles/handGesture.dir/main.o"
+  "/home/shashank/gestureRecognition/imageClassify/preprocessing.cpp" "/home/shashank/gestureRecognition/build/CMakeFiles/handGesture.dir/preprocessing.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

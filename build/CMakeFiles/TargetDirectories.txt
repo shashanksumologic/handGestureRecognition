@@ -1,1 +1,1 @@
-/home/shashank/basicOCR-master/build/CMakeFiles/handGesture.dir
+/home/shashank/gestureRecognition/build/CMakeFiles/handGesture.dir

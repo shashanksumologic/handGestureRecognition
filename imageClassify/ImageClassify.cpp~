@@ -133,7 +133,7 @@ ImageClassify::ImageClassify()
 {
 
 	//initial
-	sprintf(file_path , "../OCR/");
+	sprintf(file_path , "../images/");
 	train_samples = 75;
 	classes= 10;
 	size=40;

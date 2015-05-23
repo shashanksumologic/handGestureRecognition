@@ -32,10 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/shashank/basicOCR-master/imageClassify
+CMAKE_SOURCE_DIR = /home/shashank/gestureRecognition/imageClassify
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/shashank/basicOCR-master/build
+CMAKE_BINARY_DIR = /home/shashank/gestureRecognition/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/handGesture.dir/depend.make
@@ -47,18 +47,18 @@ include CMakeFiles/handGesture.dir/progress.make
 include CMakeFiles/handGesture.dir/flags.make
 
 CMakeFiles/handGesture.dir/main.o: CMakeFiles/handGesture.dir/flags.make
-CMakeFiles/handGesture.dir/main.o: /home/shashank/basicOCR-master/imageClassify/main.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/shashank/basicOCR-master/build/CMakeFiles $(CMAKE_PROGRESS_1)
+CMakeFiles/handGesture.dir/main.o: /home/shashank/gestureRecognition/imageClassify/main.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/shashank/gestureRecognition/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/handGesture.dir/main.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/handGesture.dir/main.o -c /home/shashank/basicOCR-master/imageClassify/main.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/handGesture.dir/main.o -c /home/shashank/gestureRecognition/imageClassify/main.cpp
 
 CMakeFiles/handGesture.dir/main.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/handGesture.dir/main.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/shashank/basicOCR-master/imageClassify/main.cpp > CMakeFiles/handGesture.dir/main.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/shashank/gestureRecognition/imageClassify/main.cpp > CMakeFiles/handGesture.dir/main.i
 
 CMakeFiles/handGesture.dir/main.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/handGesture.dir/main.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/shashank/basicOCR-master/imageClassify/main.cpp -o CMakeFiles/handGesture.dir/main.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/shashank/gestureRecognition/imageClassify/main.cpp -o CMakeFiles/handGesture.dir/main.s
 
 CMakeFiles/handGesture.dir/main.o.requires:
 .PHONY : CMakeFiles/handGesture.dir/main.o.requires
@@ -70,18 +70,18 @@ CMakeFiles/handGesture.dir/main.o.provides: CMakeFiles/handGesture.dir/main.o.re
 CMakeFiles/handGesture.dir/main.o.provides.build: CMakeFiles/handGesture.dir/main.o
 
 CMakeFiles/handGesture.dir/ImageClassify.o: CMakeFiles/handGesture.dir/flags.make
-CMakeFiles/handGesture.dir/ImageClassify.o: /home/shashank/basicOCR-master/imageClassify/ImageClassify.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/shashank/basicOCR-master/build/CMakeFiles $(CMAKE_PROGRESS_2)
+CMakeFiles/handGesture.dir/ImageClassify.o: /home/shashank/gestureRecognition/imageClassify/ImageClassify.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/shashank/gestureRecognition/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/handGesture.dir/ImageClassify.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/handGesture.dir/ImageClassify.o -c /home/shashank/basicOCR-master/imageClassify/ImageClassify.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/handGesture.dir/ImageClassify.o -c /home/shashank/gestureRecognition/imageClassify/ImageClassify.cpp
 
 CMakeFiles/handGesture.dir/ImageClassify.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/handGesture.dir/ImageClassify.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/shashank/basicOCR-master/imageClassify/ImageClassify.cpp > CMakeFiles/handGesture.dir/ImageClassify.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/shashank/gestureRecognition/imageClassify/ImageClassify.cpp > CMakeFiles/handGesture.dir/ImageClassify.i
 
 CMakeFiles/handGesture.dir/ImageClassify.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/handGesture.dir/ImageClassify.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/shashank/basicOCR-master/imageClassify/ImageClassify.cpp -o CMakeFiles/handGesture.dir/ImageClassify.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/shashank/gestureRecognition/imageClassify/ImageClassify.cpp -o CMakeFiles/handGesture.dir/ImageClassify.s
 
 CMakeFiles/handGesture.dir/ImageClassify.o.requires:
 .PHONY : CMakeFiles/handGesture.dir/ImageClassify.o.requires
@@ -93,18 +93,18 @@ CMakeFiles/handGesture.dir/ImageClassify.o.provides: CMakeFiles/handGesture.dir/
 CMakeFiles/handGesture.dir/ImageClassify.o.provides.build: CMakeFiles/handGesture.dir/ImageClassify.o
 
 CMakeFiles/handGesture.dir/preprocessing.o: CMakeFiles/handGesture.dir/flags.make
-CMakeFiles/handGesture.dir/preprocessing.o: /home/shashank/basicOCR-master/imageClassify/preprocessing.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/shashank/basicOCR-master/build/CMakeFiles $(CMAKE_PROGRESS_3)
+CMakeFiles/handGesture.dir/preprocessing.o: /home/shashank/gestureRecognition/imageClassify/preprocessing.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/shashank/gestureRecognition/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/handGesture.dir/preprocessing.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/handGesture.dir/preprocessing.o -c /home/shashank/basicOCR-master/imageClassify/preprocessing.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/handGesture.dir/preprocessing.o -c /home/shashank/gestureRecognition/imageClassify/preprocessing.cpp
 
 CMakeFiles/handGesture.dir/preprocessing.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/handGesture.dir/preprocessing.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/shashank/basicOCR-master/imageClassify/preprocessing.cpp > CMakeFiles/handGesture.dir/preprocessing.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/shashank/gestureRecognition/imageClassify/preprocessing.cpp > CMakeFiles/handGesture.dir/preprocessing.i
 
 CMakeFiles/handGesture.dir/preprocessing.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/handGesture.dir/preprocessing.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/shashank/basicOCR-master/imageClassify/preprocessing.cpp -o CMakeFiles/handGesture.dir/preprocessing.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/shashank/gestureRecognition/imageClassify/preprocessing.cpp -o CMakeFiles/handGesture.dir/preprocessing.s
 
 CMakeFiles/handGesture.dir/preprocessing.o.requires:
 .PHONY : CMakeFiles/handGesture.dir/preprocessing.o.requires
@@ -185,6 +185,6 @@ CMakeFiles/handGesture.dir/clean:
 .PHONY : CMakeFiles/handGesture.dir/clean
 
 CMakeFiles/handGesture.dir/depend:
-	cd /home/shashank/basicOCR-master/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/shashank/basicOCR-master/imageClassify /home/shashank/basicOCR-master/imageClassify /home/shashank/basicOCR-master/build /home/shashank/basicOCR-master/build /home/shashank/basicOCR-master/build/CMakeFiles/handGesture.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/shashank/gestureRecognition/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/shashank/gestureRecognition/imageClassify /home/shashank/gestureRecognition/imageClassify /home/shashank/gestureRecognition/build /home/shashank/gestureRecognition/build /home/shashank/gestureRecognition/build/CMakeFiles/handGesture.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/handGesture.dir/depend
 

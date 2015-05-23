@@ -135,7 +135,7 @@ ImageClassify::ImageClassify()
 	//initial
 	sprintf(file_path , "../images/");
 	train_samples = 75;
-	classes= 10;
+	classes= 8;
 	size=40;
 
 	trainData = cvCreateMat(train_samples*classes, size*size, CV_32FC1);
