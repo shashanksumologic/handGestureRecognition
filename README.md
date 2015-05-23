@@ -1,9 +1,12 @@
-Hand gesture recognition
+basicOCR
 ========
 
-Basic Hand gesture recognition application using KNN and openCV
+Basic Optical Character Recognition Tutorial. Damiles Blog.
 
 This source code is not for professional uses,  this is for educational uses, and describe the common technics for create an OCR application
+
+For more info about this see: http://blog.damiles.com/2008/11/basic-ocr-in-opencv/
+
 
 Requirements
 ============
@@ -16,25 +19,26 @@ Compilation
 
     mkdir build
     cd build
-    cmake ../imageClassify
+    cmake ../basicOCR
     make
 
 Running demo
 ============
 
-./handGesture
+./OCR
 
-1) Web cam window opens. It needs to detect a close fist to decribe a ROI for hand gestures.
-2) once a fist is detected a pink box is made around it!
-3) Now the gestures are detected in this ROI.
-4) HAnd segmentation is done using the skin color detection and hence may need adjustment with HSV tracker.
-5) Motion window shows any pixels which are not same in consecutive frames. The gestures are detected only with 0 white pixels.
-6) ROI box is helpful in setting the trackers. It shows the binary image on which gesture recognition is performed .
+Paint over window a number
+To classify press "c" key and in console you can see result,  precission and Accuracy
+For create other image you can clean image with "r"
+You can increase or decrease cursor radio with "+" and "-" keys
 
 Keys control
 ============
 
-    "r" - resets ROI box
-    "Esc" - exits the program
-    
+    "r" - reset image
+    "+" - cursor radio increment
+    "-" - cursor radio decrement
+    "s" - Save image as out.png
+    "c" - Classify image,  the result in console
+    ESC - quit the program
 
