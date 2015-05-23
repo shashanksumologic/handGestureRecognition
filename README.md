@@ -1,4 +1,7 @@
-Basic Hand gesture recognition application using KNN and openCV
+Basic Hand gesture recognition application 
+==========================================
+
+Basic Hand gesture recognition application  using KNN and openCV
 
 This source code is not for professional uses,  this is for educational uses, and describe the common technics for create an OCR application
 
