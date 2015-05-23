@@ -129,14 +129,14 @@ int main( void )
                             {
                                case 0 : putText(imline, "A", cvPoint(120,300), FONT_HERSHEY_COMPLEX_SMALL, 20.0, cvScalar(200,200,250), 1, CV_AA); break;
 			       case 1 : putText(imline, "B", cvPoint(120,300), FONT_HERSHEY_COMPLEX_SMALL, 20.0, cvScalar(200,200,250), 1, CV_AA); break;
-			       case 2 : putText(imline, "C", cvPoint(120,300), FONT_HERSHEY_COMPLEX_SMALL, 20.0, cvScalar(200,200,250), 1, CV_AA); break;
-			       case 3 : putText(imline, "D", cvPoint(120,300), FONT_HERSHEY_COMPLEX_SMALL, 20.0, cvScalar(200,200,250), 1, CV_AA); break;
-			       case 4 : putText(imline, "E", cvPoint(120,300), FONT_HERSHEY_COMPLEX_SMALL, 20.0, cvScalar(200,200,250), 1, CV_AA); break;
-			       case 5 : putText(imline, "F", cvPoint(120,300), FONT_HERSHEY_COMPLEX_SMALL, 20.0, cvScalar(200,200,250), 1, CV_AA); break;
-			       case 6 : putText(imline, "G", cvPoint(120,300), FONT_HERSHEY_COMPLEX_SMALL, 20.0, cvScalar(200,200,250), 1, CV_AA); break;
-			       case 7 : putText(imline, "H", cvPoint(120,300), FONT_HERSHEY_COMPLEX_SMALL, 20.0, cvScalar(200,200,250), 1, CV_AA); break;
-			       case 8 : putText(imline, "I", cvPoint(120,300), FONT_HERSHEY_COMPLEX_SMALL, 20.0, cvScalar(200,200,250), 1, CV_AA); break;
-			       case 9 : putText(imline, "J", cvPoint(120,300), FONT_HERSHEY_COMPLEX_SMALL, 20.0, cvScalar(200,200,250), 1, CV_AA); break;
+			       case 2 : putText(imline, "E", cvPoint(120,300), FONT_HERSHEY_COMPLEX_SMALL, 20.0, cvScalar(200,200,250), 1, CV_AA); break;
+			       case 3 : putText(imline, "F", cvPoint(120,300), FONT_HERSHEY_COMPLEX_SMALL, 20.0, cvScalar(200,200,250), 1, CV_AA); break;
+			       case 4 : putText(imline, "G", cvPoint(120,300), FONT_HERSHEY_COMPLEX_SMALL, 20.0, cvScalar(200,200,250), 1, CV_AA); break;
+			       case 5 : putText(imline, "H", cvPoint(120,300), FONT_HERSHEY_COMPLEX_SMALL, 20.0, cvScalar(200,200,250), 1, CV_AA); break;
+			       case 6 : putText(imline, "I", cvPoint(120,300), FONT_HERSHEY_COMPLEX_SMALL, 20.0, cvScalar(200,200,250), 1, CV_AA); break;
+			       case 7 : putText(imline, "J", cvPoint(120,300), FONT_HERSHEY_COMPLEX_SMALL, 20.0, cvScalar(200,200,250), 1, CV_AA); break;
+			       case 8 : putText(imline, "K", cvPoint(120,300), FONT_HERSHEY_COMPLEX_SMALL, 20.0, cvScalar(200,200,250), 1, CV_AA); break;
+			       case 9 : putText(imline, "L", cvPoint(120,300), FONT_HERSHEY_COMPLEX_SMALL, 20.0, cvScalar(200,200,250), 1, CV_AA); break;
 
                               }				
 				}

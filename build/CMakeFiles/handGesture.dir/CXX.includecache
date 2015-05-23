@@ -6,24 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/shashank/gestureRecognition/imageClassify/ImageClassify.cpp
-cv.h
-/home/shashank/gestureRecognition/imageClassify/cv.h
-highgui.h
-/home/shashank/gestureRecognition/imageClassify/highgui.h
-ml.h
-/home/shashank/gestureRecognition/imageClassify/ml.h
-stdio.h
--
-stdlib.h
--
-ctype.h
--
-preprocessing.h
-/home/shashank/gestureRecognition/imageClassify/preprocessing.h
-ImageClassify.h
-/home/shashank/gestureRecognition/imageClassify/ImageClassify.h
-
 /home/shashank/gestureRecognition/imageClassify/ImageClassify.h
 cv.h
 -
@@ -50,30 +32,6 @@ ImageClassify.h
 iostream
 -
 stdio.h
--
-
-/home/shashank/gestureRecognition/imageClassify/preprocessing.cpp
-preprocessing.h
-/home/shashank/gestureRecognition/imageClassify/preprocessing.h
-cv.h
-/home/shashank/gestureRecognition/imageClassify/cv.h
-highgui.h
-/home/shashank/gestureRecognition/imageClassify/highgui.h
-stdio.h
--
-ctype.h
--
-math.h
--
-
-/home/shashank/gestureRecognition/imageClassify/preprocessing.h
-cv.h
--
-highgui.h
--
-stdio.h
--
-ctype.h
 -
 
 /usr/local/include/opencv/cv.h
