@@ -144,8 +144,6 @@ int main( void )
 			imshow("motion",motion);
                         imshow("char",imline);
 			flag=1;
-			//sleep(0.2);
-			//cout<<countNonZero(imgThresholded)<<" "<<countNonZero(motion)<<endl;
 		}
 		else
 		{
@@ -178,32 +176,7 @@ void detectAndDisplay( Mat frame )
 	cvtColor( frame, frame_gray, COLOR_BGR2GRAY );
 	equalizeHist( frame_gray, frame_gray );
 
-	//-- Detect faces
-	//face_cascade.detectMultiScale( frame_gray, faces, 1.1, 2, 0|CASCADE_SCALE_IMAGE, Size(30, 30) );
+	
 	if((int)faces.size()==0)
 		face_cascade.detectMultiScale( frame_gray, faces, 1.25,4,0,Size(0,0), Size(100,100) );
-	/*if((int)faces.size()!=0)
-	  for ( size_t i = 0; i < faces.size(); i++ )
-	  {
-	//Point center( faces[i].x + faces[i].width/2, faces[i].y + faces[i].height/2 );
-	//ellipse( frame, center, Size( faces[i].width*1.5, faces[i].height*1.5 ), 0, 0, 360, Scalar( 255, 0, 255 ), 4, 8, 0 );
-	rectangle(frame,Point(faces[i].x-faces[i].width,faces[i].y-faces[i].height),Point(faces[i].x+(faces[i].width)*2,faces[i].y+(faces[i].height)*2),Scalar(255,0,255),4,8,0);
-	//cout<<"HI";
-
-
-	//-- In each face, detect eyes
-	/*eyes_cascade.detectMultiScale( faceROI, eyes, 1.1, 2, 0 |CASCADE_SCALE_IMAGE, Size(30, 30) );
-
-	for ( size_t j = 0; j < eyes.size(); j++ )
-	{
-	Point eye_center( faces[i].x + eyes[j].x + eyes[j].width/2, faces[i].y + eyes[j].y + eyes[j].height/2 );
-	int radius = cvRound( (eyes[j].width + eyes[j].height)*0.25 );
-	circle( frame, eye_center, radius, Scalar( 255, 0, 0 ), 4, 8, 0 );
-	}*/
-	//}
-	/*else
-	  {
-	  }
-	//-- Show what you got
-	imshow( window_name, frame+imline );*/
 }
